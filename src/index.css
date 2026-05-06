@@ -1,3 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-sans: 'Poppins', system-ui, sans-serif;
+
+  /* Colors */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-grey-100: #F0F0F0;
+  --color-grey-200: #DCDCDC;
+  --color-grey-500: #716F6F;
+  --color-red-400: #FF5959;
+  --color-purple-500: #854DFF;
+
+}
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -11,8 +28,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Poppins', system-ui, sans-serif;
+  --heading: 'Poppins', system-ui, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
