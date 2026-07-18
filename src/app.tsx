@@ -32,7 +32,7 @@ export function App() {
 
   return (
     <main class="flex min-h-screen items-center justify-center p-4">
-      <div class="w-full max-w-210 rounded-3xl rounded-br-[200px] bg-white p-12 shadow-sm max-sm:rounded-br-[100px] max-sm:p-6">
+      <div class="w-full max-w-210 rounded-3xl rounded-br-50 bg-white p-12 shadow-sm max-sm:rounded-br-25 max-sm:p-6">
         {/* Form */}
         <form onSubmit={handleSubmit} noValidate>
           <div class="flex gap-8 max-sm:gap-4">

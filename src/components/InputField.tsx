@@ -22,7 +22,7 @@ export function InputField({
         placeholder={placeholder}
         value={value}
         onInput={(e) => onChange((e.target as HTMLInputElement).value)}
-        class={`w-full max-w-[160px] rounded-lg border px-4 py-3 text-[32px] font-bold text-black outline-none transition-colors placeholder:text-grey-200 focus:border-purple-500 max-sm:max-w-full max-sm:text-xl max-sm:py-2 ${
+        class={`w-full max-w-40 rounded-lg border px-4 py-3 text-[32px] font-bold text-black outline-none transition-colors placeholder:text-grey-200 focus:border-purple-500 max-sm:max-w-full max-sm:text-xl max-sm:py-2 ${
           hasError ? "border-red-400" : "border-grey-200"
         }`}
       />
